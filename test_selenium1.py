@@ -4,6 +4,6 @@ import time
 driver = webdriver.Chrome()
 driver.get("https://www.google.com")
 search_box = driver.find_element(By.NAME, "q")
-search_box.send_keys("Selenium Python")
+search_box.send_keys("Selenium Python by Kate ")
 time.sleep(5)
 driver.quit()

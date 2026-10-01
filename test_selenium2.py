@@ -4,7 +4,6 @@ import time
 driver = webdriver.Chrome()
 driver.get("https://www.selenium.dev/selenium/web/web-form.html")
 title = driver.title
-print(title)
 text_box = driver.find_element(by=By.NAME, value="my-text")
 text_box.send_keys("Selenium KF")
 submit_button = driver.find_element(by=By.CSS_SELECTOR, value="button")
